@@ -1,5 +1,6 @@
 import asyncio
 import requests
+import webbrowser
 
 
 def cal_caseprint(input, pre_c, Id):
@@ -34,9 +35,13 @@ def BruteForce(message):
         URL = 'https://img.youtube.com/vi/' + z + '/mqdefault.jpg'
         response = requests.get(URL)
         if response.status_code == 200:
-            print('\n\n[영상 링크를 발견했습니다!]\nhttps://youtu.be/' + z + '\n\n')
-    Hi = input('대입이 끝났습니다. 또 찍을 코드가 있다면 입력해주세요.\n> ')
+            found = '발견됨'
+            url = 'https://youtu.be/' + z
+            print('\n\n[영상 링크를 발견했습니다!]\n' + url + '\n\n')
+            webbrowser.open(url)
+    Hi = input('대입이 끝났습니다. (일치하는 결과 ' + found + ')\n또 찍을 코드가 있다면 입력해주세요.\n> ')
     BruteForce(Hi)
 
+found = '없음'
 Hi = input('찍을 코드를 입력해주세요.\n> ')
 BruteForce(Hi)
