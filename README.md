@@ -1,4 +1,4 @@
-# YTLink_Bruteforcer
+# 유튜브 링크 대입기
 파워무비 이스터에그 찾으려고 만든 유튜브 링크 대입기입니다!
 
 https://www.python.org/downloads/
