@@ -4,7 +4,7 @@
 
 exe 파일은 아래 링크를 참조해주세요! (비밀번호: 123)
 
-> https://drive.google.com/file/d/18TbIq1ybBi6LLhciBHwgwlAfGDkxmTf6/view?usp=sharing
+> https://drive.google.com/file/d/13qzd4GhUNEE2XoKmvExRNAHnpr8ym-T4/view
 
 사용 방법
 -------------
