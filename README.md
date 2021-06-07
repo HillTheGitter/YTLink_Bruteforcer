@@ -6,7 +6,10 @@
 사용 방법
 -------------
 https://www.python.org/downloads/
-위 링크에서 파이썬 최신버전을 다운로드해 설치해주세요.
+
+먼저 위 링크에서 파이썬 최신버전을 다운로드해 설치해주세요.
+
+cmd를 켜고 pip install requests를 입력해주세요.
 
 
 원리
