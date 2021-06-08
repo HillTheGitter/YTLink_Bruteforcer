@@ -10,7 +10,7 @@ exe 파일은 아래 링크를 참조해주세요! (비밀번호: 123)
 -------------
 > https://www.python.org/downloads/
 
-먼저 위 링크에서 python 최신버전을 다운로드해 설치해주세요.
+먼저 위 링크에서 python 최신버전을 다운로드해 설치해주세요.(설치할 때 ADD Pythone 3.9 to PATH 항목을 꼭 체크해주셔야 합니다)
 
 cmd를 켜고 pip install requests를 입력해 설치가 완료될 때까지 기다려주세요.
 
