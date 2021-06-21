@@ -35,7 +35,7 @@ def BruteForce(message):
     i = 0
 
     for z in VideoId:
-        URL = 'https://img.youtube.com/vi/' + z + '/mqdefault.jpg'
+        URL = 'https://img.youtube.com/vi/' + z + '/default.jpg'
         response = requests.get(URL)
         i = i + 1
         print("대입 중... (" + str(i) + '/' + str(poss) + ')', end='\r')
